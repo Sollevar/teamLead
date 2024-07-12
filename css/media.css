@@ -1,0 +1,95 @@
+@media (max-width:1024px) {
+    .promo__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .promo__right {
+        margin-top: 30px;
+    }
+
+    .compound__content {
+        flex-direction: column;
+    }
+
+    .compound__main {
+        margin: 20px 0;
+    }
+
+    .order__wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .order__product {
+        margin-bottom: 20px;
+    }
+
+    .person__top {
+        flex-direction: column;
+    }
+
+    .person__descr {
+        margin-left: 0;
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width:576px) {
+
+    .promo__list{
+        list-style: none;
+    }
+
+    .promo__item{
+        font-size: 24px;
+    }
+
+    .compound__main{
+        max-width: 250px;
+    }
+
+    .swiper-button-next.review__next, .swiper-button-prev.review__prev{
+        display: none;
+    }
+
+    .review__slide{
+        flex-direction: column;
+    }
+
+    .review__left{
+        margin-right: 0;
+    }
+
+    .review__img{
+        width: 150px;
+        height: 120px;
+    }
+
+    .review__slide{
+        justify-content: unset;
+    }
+
+    .review__desr{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .person__img{
+        max-width: 290px;
+    }
+
+    .person__list{
+        flex-direction: column;
+    }
+
+    .person__item:not(:last-child) {
+        margin-right:0;
+        margin-bottom: 20px;
+    }
+
+    .order__discount{
+        width: 290px;
+        height: 150px;
+    }
+}

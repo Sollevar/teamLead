@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LevelUp</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <main class="main">
+        <section class="promo">
+            <video class="promo__video" autoplay muted loop>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            <div class="container promo__container">
+
+                <div class="promo__content flex">
+                    <div class="promo__left">
+                        <h1 class="promo__title">LevelUp</h1>
+                        <img src="images/prod.png" alt="LevelUp" class="promo__img">
+                    </div>
+                    <div class="promo__right">
+                        <ul class="list-reset promo__list">
+                            <li class="promo__item">Безопасность</li>
+                            <li class="promo__item">Эффективность</li>
+                            <li class="promo__item">Активные ингредиенты</li>
+                        </ul>
+                        <button href="#order" class="btn-reset order__btn">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="compound">
+            <div class="container compound__container">
+                <h2 class="compound__title">Состав продукта</h2>
+                <div class="compound__content">
+                    <ul class="compound__list list-reset">
+                        <li class="compound__item">
+                            <img src="images/block2-img-1.jpg" alt="Изображение ингредиента" class="compound__img">
+                            <span class="compound__name">Женьшень</span>
+                        </li>
+                        <li class="compound__item">
+                            <img src="images/block2-img-2.jpg" alt="Изображение ингредиента" class="compound__img">
+                            <span class="compound__name">Экстракт коры йохимбе</span>
+                        </li>
+                        <li class="compound__item">
+                            <img src="images/block2-img-3.jpg" alt="Изображение ингредиента" class="compound__img">
+                            <span class="compound__name">L-аргинин</span>
+                        </li>
+                    </ul>
+                    <img src="images/prod.png" alt="Изображение товара" class="compound__main">
+                    <ul class="compound__list list-reset">
+                        <li class="compound__item">
+                            <img src="images/block2-img-4.jpg" alt="Изображение ингредиента" class="compound__img">
+                            <span class="compound__name">Трибулус</span>
+                        </li>
+                        <li class="compound__item">
+                            <img src="images/block2-img-5.jpg" alt="Изображение ингредиента" class="compound__img">
+                            <span class="compound__name">Гинкго билоба</span>
+                        </li>
+                        <li class="compound__item">
+                            <img src="images/block2-img-6.jpg" alt="Изображение ингредиента" class="compound__img">
+                            <span class="compound__name">Эпимедиум</span>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn-reset compound__link order__btn">Заказать</button>
+            </div>
+        </section>
+        <section class="review">
+            <div class="container review__container">
+                <h2 class="review__title">Отзывы</h2>
+                <div class="swiper review__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide review__slide">
+                            <div class="review__left">
+                                <img src="images/review-img-1.jpg" alt="Фото человека оставившего отзыв"
+                                    class="review__img">
+                                <span class="review__name">Екатерина</span>
+                            </div>
+                            <p class="review__desr">
+                                Далеко-далеко, за словесными горами в стране гласных и согласных
+                                живут рыбные тексты. Вопроса агентство коварных дороге правилами?
+                            </p>
+                        </div>
+                        <div class="swiper-slide review__slide">
+                            <div class="review__left">
+                                <img src="images/review-img-2.jpg" alt="Фото человека оставившего отзыв"
+                                    class="review__img">
+                                <span class="review__name">Георгий</span>
+                            </div>
+                            <p class="review__desr">
+                                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Раз, осталось!
+                            </p>
+                        </div>
+                        <div class="swiper-slide review__slide">
+                            <div class="review__left">
+                                <img src="images/review-img-3.jpg" alt="Фото человека оставившего отзыв"
+                                    class="review__img">
+                                <span class="review__name">Владимир</span>
+                            </div>
+                            <p class="review__desr">
+                               Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination review__pagination"></div>
+                    <div class="swiper-button-prev review__prev"></div>
+                    <div class="swiper-button-next review__next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="person">
+            <div class="container person__container">
+                <div class="person__top">
+                    <img src="images/doctor.png" alt="фотография человека с товаром" class="person__img">
+                    <p class="person__descr">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ducimus ad sed dolorem soluta adipisci, eveniet cupiditate eligendi itaque!
+                        Est doloribus soluta ad quo voluptatibus consectetur! Quod praesentium hic animi facilis.
+                    </p>
+                </div>
+                <ul class="list-reset person__list flex">
+                    <li class="person__item">Безопасность</li>
+                    <li class="person__item">Эффективность</li>
+                    <li class="person__item">Активные ингредиенты</li>
+                </ul>
+                <button class="btn-reset person__link order__btn">Заказать</button>
+            </div>
+        </section>
+        <section class="order">
+            <div class="container order__container">
+                <h2 class="order__title">LevelUp</h2>
+                <div class="order__discount">
+                    До конца скидки осталось:
+                    <div class="order__timer"> 
+
+                    </div>
+                </div>
+                <div class="order__wrapper flex">
+                    <form action="" class="order__form flex" method="post">
+                        <label for="name" class="order__label">
+                            <input type="text" name="name" id="name" placeholder="Имя" required>
+                            <span class="form-tooltip">Пример: Иван</span>
+                        </label>
+                        <label for="tel"  class="order__label">
+                            <input type="tel" name="tel" id="tel" placeholder="Номер телефона" required maxlength="11">
+                            <span class="form-tooltip">Пример:88005553535</span>
+                        </label>
+                        <button type="submit" class="btn-reset order__button">Заказать</button>
+                    </form>
+                    <div class="order__product">
+                        <img src="images/prod.png" alt="Изображение товара" class="order__img">
+                        <div class="order__prices flex">
+                            <span class="order__price">1790 ₽</span>
+                            <span class="order__price--old">2190 ₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
